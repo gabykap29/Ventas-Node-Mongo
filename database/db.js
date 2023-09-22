@@ -1,6 +1,6 @@
 import mongoose, { mongo } from "mongoose";
 
-const MONGOURL = 'mongodb://127.0.0.1:27017/test';
+const MONGOURL = 'mongodb://127.0.0.1:27017/Ventas';
 
 export const connectDB = async ()=>{
     try {

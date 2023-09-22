@@ -4,7 +4,7 @@ import bcript from 'bcryptjs';
 export const authCtrl = {};
 
 authCtrl.register = async (req,res)=>{
-    const {_id,username,pass,roleId,employeeId} = req.body;
+    const {_id,username,pass,roleId,} = req.body;
 
     try {
         
